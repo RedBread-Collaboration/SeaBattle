@@ -22,6 +22,7 @@ $ uvicorn main:app --reload
 ### Installing packages
 
 ```
+$ cd frontend
 $ npm install
 ...
 ```
