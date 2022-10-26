@@ -1,0 +1,25 @@
+.User_block {
+  width: 1000px;
+  height: 60px;
+  background: rgba(153, 194, 255, 0.24);
+  border-radius: 15px;
+  margin-left: 80px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  display: flex;
+  font-size: 24px;
+  color: #0236efb3;
+}
+
+.choose-btn {
+  width: 200px;
+  height: 80%;
+  font-weight: 700;
+  font-size: 28px;
+  color: #fff;
+  background-color: #0236ef;
+  background-position: 0 -150px;
+  cursor: pointer;
+  border-radius: 15px;
+}
