@@ -1,9 +1,29 @@
 # SeaBattle
 
+## Backend
+
+### Installing packages
+
+```
+$ cd backend
+$ pip3 install -r ./requirements.py
+...
+```
+
+### Running backend
+
+```
+$ uvicorn main:app --reload
+...
+```
+
+## Frontend
+
 ### Installing packages
 
 ```
 $ npm install
+...
 ```
 
 ### Running app
