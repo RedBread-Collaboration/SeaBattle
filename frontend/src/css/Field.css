@@ -1,0 +1,16 @@
+.field table {
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+.field td {
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    border: 1px solid #000;
+    box-sizing: content-box;
+}
+
+.field th {
+    padding: 5px;
+}
