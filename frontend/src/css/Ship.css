@@ -1,0 +1,18 @@
+.ship {
+    border-color: #00f;
+    border-style: solid;
+}
+
+.ship-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    margin-right: 20px;
+    box-sizing: border-box;
+
+    /** SHOW SHIP CONTAINER BORDER */
+    /** FOR DEVELOPMENT */
+    /* border-color: #f00;
+    border-style: solid; */
+}
