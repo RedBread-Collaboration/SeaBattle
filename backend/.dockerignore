@@ -1,0 +1,12 @@
+__pycache__/
+.vscode/
+
+Dockerfile
+*.example
+.gitignore
+
+*test*
+*TEST*
+
+*todo*
+*TODO*

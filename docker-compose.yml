@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  backend:
+    build: backend/
+    command: python3 server.py
+    ports:
+      - 3001:3001
+
+  frontend:
+    build: frontend/
+    command: npm start
+    network_mode: host
+    depends_on:
+      - backend
