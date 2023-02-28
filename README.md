@@ -62,3 +62,27 @@ $ npm start
 ```
 
 **Now you can open `localhost:3000` and play!!**
+
+## **Docker**
+
+---
+
+If you use docker, you need to edit `docker-compose.yml`
+
+```
+services:
+  backend:
+    ...
+    ports:
+      - <your_port>:3001
+    ...
+```
+
+Where `<your_port>` is `PORT` which you set in `backend/.env` file.
+
+### Run docker-compose
+
+```
+$ docker-compose up
+...
+```
