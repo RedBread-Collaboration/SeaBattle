@@ -2,8 +2,6 @@
 
 ## Backend
 
----
-
 ### Install requirements
 
 ```
@@ -31,8 +29,6 @@ $ python3 server.py
 ```
 
 ## **Frontend**
-
----
 
 ### Install packages
 
@@ -65,8 +61,6 @@ $ npm start
 
 ## **Docker**
 
----
-
 If you use docker, you need to edit `docker-compose.yml`
 
 ```
@@ -86,3 +80,5 @@ Where `<your_port>` is `PORT` which you set in `backend/.env` file.
 $ docker-compose up
 ...
 ```
+
+**Now you can open `localhost:3000` and play!!**
